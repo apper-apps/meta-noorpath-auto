@@ -53,11 +53,28 @@
   background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
 }
 
-/* Islamic geometric pattern background */
-.islamic-pattern {
+/* Black hole transformation pattern */
+.black-hole-pattern {
   background-image: 
-    radial-gradient(circle at 25% 25%, rgba(44, 95, 45, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 75% 75%, rgba(151, 188, 98, 0.05) 0%, transparent 50%);
+    radial-gradient(ellipse at center, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(79, 70, 229, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 80%, rgba(147, 51, 234, 0.06) 0%, transparent 50%);
+}
+
+/* Cosmic void effect */
+.cosmic-void {
+  background: radial-gradient(ellipse at center, 
+    rgba(139, 92, 246, 0.15) 0%, 
+    rgba(79, 70, 229, 0.1) 25%, 
+    rgba(55, 48, 107, 0.05) 50%, 
+    transparent 70%);
+}
+
+/* Islamic geometric pattern with dark theme */
+.islamic-pattern-dark {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(79, 70, 229, 0.06) 0%, transparent 50%);
 }
 
 /* Progress ring animation */
@@ -92,7 +109,65 @@
 
 /* Smooth transitions for all interactive elements */
 * {
-  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+/* Glowing effects for dark theme */
+.glow-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.glow-indigo {
+  box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+}
+
+/* Animation delays for staggered effects */
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+/* Black hole pull effect */
+@keyframes black-hole-pull {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(0.8) rotate(180deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.2) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.black-hole-pull {
+  animation: black-hole-pull 3s ease-in-out infinite;
+}
+
+/* Transformation energy effect */
+@keyframes energy-transform {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-40px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+.energy-transform {
+  animation: energy-transform 2s ease-out forwards;
 }
 
 /* Focus styles for accessibility */

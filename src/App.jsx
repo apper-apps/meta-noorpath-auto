@@ -6,12 +6,13 @@ import TrackPage from "@/components/pages/TrackPage"
 import TasksPage from "@/components/pages/TasksPage"
 import PartnersPage from "@/components/pages/PartnersPage"
 import ProgressPage from "@/components/pages/ProgressPage"
-
+import OnboardingPage from "@/components/pages/OnboardingPage"
 function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-background font-body islamic-pattern">
-        <Routes>
+<Routes>
+          <Route path="/onboarding" element={<OnboardingPage />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="track" element={<TrackPage />} />
