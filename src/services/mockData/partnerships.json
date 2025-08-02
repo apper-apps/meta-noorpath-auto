@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "user1Id": 2,
+    "user2Id": 5,
+    "sharedStreak": 18,
+    "createdAt": "2024-02-25T10:00:00Z",
+    "lastCheckIn": "2024-03-14T08:30:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "user1Id": 3,
+    "user2Id": 4,
+    "sharedStreak": 5,
+    "createdAt": "2024-03-08T14:15:00Z",
+    "lastCheckIn": "2024-03-13T19:45:00Z",
+    "status": "active"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1,
+    "title": "Recite Surah Al-Fatiha 7 times",
+    "category": "spiritual",
+    "duration": 5,
+    "points": 20,
+    "description": "Center yourself through the opening chapter of the Quran"
+  },
+  {
+    "Id": 2,
+    "title": "Do 20 pushups",
+    "category": "physical",
+    "duration": 3,
+    "points": 15,
+    "description": "Channel your energy into physical strength"
+  },
+  {
+    "Id": 3,
+    "title": "Cold water face wash + deep breathing",
+    "category": "physical",
+    "duration": 2,
+    "points": 10,
+    "description": "Reset your nervous system naturally"
+  },
+  {
+    "Id": 4,
+    "title": "Write 3 things you're grateful for",
+    "category": "mental",
+    "duration": 5,
+    "points": 15,
+    "description": "Shift focus to Allah's blessings in your life"
+  },
+  {
+    "Id": 5,
+    "title": "Call a family member or friend",
+    "category": "social",
+    "duration": 10,
+    "points": 25,
+    "description": "Connect with your support network"
+  },
+  {
+    "Id": 6,
+    "title": "Do Istighfar 100 times",
+    "category": "spiritual",
+    "duration": 8,
+    "points": 30,
+    "description": "Seek Allah's forgiveness and purify your heart"
+  },
+  {
+    "Id": 7,
+    "title": "Organize your workspace/room",
+    "category": "physical",
+    "duration": 15,
+    "points": 20,
+    "description": "Create order in your environment and mind"
+  },
+  {
+    "Id": 8,
+    "title": "Practice Arabic letters or words",
+    "category": "mental",
+    "duration": 10,
+    "points": 25,
+    "description": "Learn the language of the Quran"
+  },
+  {
+    "Id": 9,
+    "title": "Listen to Quran recitation",
+    "category": "spiritual",
+    "duration": 15,
+    "points": 20,
+    "description": "Let the words of Allah calm your soul"
+  },
+  {
+    "Id": 10,
+    "title": "Do jumping jacks for 2 minutes",
+    "category": "physical",
+    "duration": 2,
+    "points": 10,
+    "description": "Quick burst of energy to redirect focus"
+  },
+  {
+    "Id": 11,
+    "title": "Write a short dua or reflection",
+    "category": "creative",
+    "duration": 7,
+    "points": 15,
+    "description": "Express your connection with Allah through words"
+  },
+  {
+    "Id": 12,
+    "title": "Text your accountability partner",
+    "category": "social",
+    "duration": 3,
+    "points": 15,
+    "description": "Stay connected and accountable"
+  },
+  {
+    "Id": 13,
+    "title": "Do 5-minute meditation/dhikr",
+    "category": "spiritual",
+    "duration": 5,
+    "points": 20,
+    "description": "Remember Allah and find inner peace"
+  },
+  {
+    "Id": 14,
+    "title": "Sketch or doodle Islamic patterns",
+    "category": "creative",
+    "duration": 12,
+    "points": 20,
+    "description": "Express creativity through Islamic art"
+  },
+  {
+    "Id": 15,
+    "title": "Take a 10-minute walk outside",
+    "category": "physical",
+    "duration": 10,
+    "points": 15,
+    "description": "Connect with nature and clear your mind"
+  },
+  {
+    "Id": 16,
+    "title": "Read one page of Islamic book",
+    "category": "mental",
+    "duration": 8,
+    "points": 20,
+    "description": "Grow your knowledge and understanding"
+  },
+  {
+    "Id": 17,
+    "title": "Help someone (text, call, or in person)",
+    "category": "social",
+    "duration": 10,
+    "points": 30,
+    "description": "Earn reward by serving others"
+  },
+  {
+    "Id": 18,
+    "title": "Plan tomorrow's schedule",
+    "category": "mental",
+    "duration": 7,
+    "points": 15,
+    "description": "Take control of your time and priorities"
+  }
+]

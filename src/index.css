@@ -1,0 +1,113 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Custom toast positioning and styling */
+.Toastify__toast-container {
+  top: 1rem;
+  right: 1rem;
+  width: 320px;
+}
+
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-height: 64px;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+}
+
+/* Islamic geometric pattern background */
+.islamic-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(44, 95, 45, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(151, 188, 98, 0.05) 0%, transparent 50%);
+}
+
+/* Progress ring animation */
+@keyframes progress-ring {
+  0% {
+    stroke-dasharray: 0 283;
+  }
+  100% {
+    stroke-dasharray: calc(283 * var(--progress)) 283;
+  }
+}
+
+.progress-ring {
+  animation: progress-ring 1s ease-out forwards;
+}
+
+/* Celebration particles */
+@keyframes float-up {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.particle {
+  animation: float-up 2s ease-out forwards;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+/* Focus styles for accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2C5F2D;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* Tap feedback for touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .tap-target {
+    -webkit-tap-highlight-color: rgba(44, 95, 45, 0.1);
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "userId": 1,
+    "timestamp": "2024-03-15T14:30:00Z",
+    "intensity": 3,
+    "trigger": "stress",
+    "taskCompleted": true,
+    "notes": "Felt stressed after work meeting, did 10 minutes dhikr"
+  },
+  {
+    "Id": 2,
+    "userId": 1,
+    "timestamp": "2024-03-13T20:15:00Z",
+    "intensity": 2,
+    "trigger": "boredom",
+    "taskCompleted": true,
+    "notes": "Completed prayer and read Quran for 15 minutes"
+  },
+  {
+    "Id": 3,
+    "userId": 1,
+    "timestamp": "2024-03-11T16:45:00Z",
+    "intensity": 4,
+    "trigger": "loneliness",
+    "taskCompleted": false,
+    "notes": "Called my partner for support"
+  },
+  {
+    "Id": 4,
+    "userId": 2,
+    "timestamp": "2024-03-14T11:20:00Z",
+    "intensity": 1,
+    "trigger": "habit",
+    "taskCompleted": true,
+    "notes": "Quick urge, immediately did pushups"
+  },
+  {
+    "Id": 5,
+    "userId": 1,
+    "timestamp": "2024-03-10T19:30:00Z",
+    "intensity": 3,
+    "trigger": "anger",
+    "taskCompleted": true,
+    "notes": "Did breathing exercise and listened to nasheeds"
+  },
+  {
+    "Id": 6,
+    "userId": 3,
+    "timestamp": "2024-03-12T13:10:00Z",
+    "intensity": 2,
+    "trigger": "curiosity",
+    "taskCompleted": true,
+    "notes": "Redirected to reading Islamic articles"
+  },
+  {
+    "Id": 7,
+    "userId": 1,
+    "timestamp": "2024-03-09T21:45:00Z",
+    "intensity": 5,
+    "trigger": "stress",
+    "taskCompleted": false,
+    "notes": "Very difficult moment, need to improve coping strategies"
+  },
+  {
+    "Id": 8,
+    "userId": 4,
+    "timestamp": "2024-03-14T15:20:00Z",
+    "intensity": 2,
+    "trigger": "boredom",
+    "taskCompleted": true,
+    "notes": "Organized room and called friend"
+  }
+]
